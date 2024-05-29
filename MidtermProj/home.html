@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: #77b300 3px solid;
+            width: 100%;
+        }
+
+        .container-header {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            list-style: none;
+            display: flex;
+        }
+
+        header li {
+            margin-left: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .text-box {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #f7f7f7;
+        }
+
+        .text-box h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .text-box p {
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .image-box {
+            flex: 1;
+            background-color: #eee;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div id="branding">
+    
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="MidTermProj_am23106.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="text-box">
+            <h1 align="center">Anushka Mandal</h1>
+            <p>Hello! I am Anushka Mandal.</p><br>
+            <p> Currently, I am a 1st year, 2nd semmester student. 
+                <br> I study Biomedical Engineering 
+                at Shibaura Institute of Technology.</p>
+        </div>
+        <div class="image-box">
+            <img src="mypic.jpg" alt="Your Photo">
+        </div>
+    </div>
+</body>
+</html>

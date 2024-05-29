@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushka's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #5c6fff27;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77b300 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('flower.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: #392f2f;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #showcase h1 {
+            margin-top: 0;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #main-content {
+            padding: 20px;
+            background: #fff;
+            margin-top: -10px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+        .qualifications, .languages {
+            margin-bottom: 20px;
+        }
+        .qualifications ul, .languages ul {
+            list-style: none;
+            padding: 0;
+        }
+        .qualifications li, .languages li {
+            background: #f4f4f4;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        .extracurriculars {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+        .extracurriculars .card {
+            background: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            flex: 1 1 calc(50% - 40px); /* Adjusted to 50% for 2 cards per row */
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .extracurriculars .card img {
+            width: 100%;
+            height: auto;
+            max-height: 150px; /* Limit the image height */
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .extracurriculars .card h3 {
+            margin-top: 0;
+            font-size: 20px;
+            color: #333;
+            text-align: center;
+        }
+        .extracurriculars .card p, .extracurriculars .card ul {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Anushka Mandal</h1>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="home.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello, my name is Anushka.</p>
+        </div>
+    </section>
+
+    <div class="container" id="main-content">
+        <section class="qualifications">
+            <h2 class="section-title">Qualifications in English</h2>
+            <ul>
+                <li>SAT score: English: 650</li>
+                <li>TOEIC L&R score: 950</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">Extracurriculars and Achievements</h2>
+            <div class="extracurriculars">
+                <div class="card">
+                    <img src="piano.webp" alt="Piano">
+                    <h3>Piano</h3>
+                    <p>Took classes for three years (5-8th grade), along with participating in two concerts.</p>
+                </div>
+                <div class="card">
+                    <img src="japanese.jpg" alt="Japanese">
+                    <h3>Japanese</h3>
+                    <p>Honed my Japanese speaking skills over the range of 5 years in Kumon. Advanced 9 skill levels and took several Japanese speaking and writing tests. JLPT scores: N5 & N4 passed.</p>
+                </div>
+                <div class="card">
+                    <img src="clean.png" alt="Community Service">
+                    <h3>Community Service</h3>
+                    <p>Volunteered in several organizations over my summer break - total 20 hrs.</p>
+                    <ul>
+                        <li>Several hours of tango therapy with old age homes and making crafts for children's homes as a part of Hands on Tokyo.</li>
+                        <li>Volunteered as an invigilator during olympiad testing at my school.</li>
+                        <li>Cleaning up the riverside with Tokyo River friends.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="speak.jpg" alt="Public Speaking and Writing">
+                    <h3>Public Speaking and Writing</h3>
+                    <ul>
+                        <li>Won third place in News Presentation in a class competition in 8th grade.</li>
+                        <li>Won first place in a class debate competition in 7th grade.</li>
+                        <li>Won 2nd position in an essay writing competition in 7th grade.</li>
+                        <li>Acted as the lead role in the school play ‘The Mousetrap- by Agatha Christie’ in grade 11.</li>
+                        <li>Ran for student council in the 11th grade for the post of Treasurer.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="school.jpeg" alt="School Representation">
+                    <h3>School Representation</h3>
+                    <p>Represented my school in a conference entitled International Understanding and Research in the Tokyo Metropolitan Science and Technology High School.</p>
+                </div>
+                <div class="card">
+                    <img src="swim.jpg" alt="Swimming">
+                    <h3>Swimming</h3>
+                    <p>Learned to swim in a competitive environment and passed 17 levels involving different techniques.</p>
+                </div>
+                <div class="card">
+                    <img src="sport.jpeg" alt="Athletics">
+                    <h3>Athletics</h3>
+                    <ul>
+                        <li>Took tennis classes for a year in the 8th grade.</li>
+                        <li>Secured 3rd position in an obstacle race in 7th grade.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="exam.jpg" alt="Olympiads">
+                    <h3>Olympiads</h3>
+                    <p>Participated in SilverZone olympiads in grade 8. English Olympiad - state rank 75.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="languages">
+            <h2 class="section-title">Languages Known</h2>
+            <ul>
+                <li>English</li>
+                <li>Japanese</li>
+                <li>Hindi</li>
+                <li>Bengali</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>Anushka Mandal &copy; 2024</p>
+    </footer>
+</body>
+</html>
